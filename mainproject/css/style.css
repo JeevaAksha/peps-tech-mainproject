@@ -1,0 +1,21 @@
+
+:root{
+--primary:#2E7D32;--secondary:#81C784;--accent:#FFB300;--bg:#F5F7F5;--white:#fff;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Segoe UI,Arial,sans-serif;background:var(--bg);color:#333}
+nav,footer{background:var(--primary);color:#fff;padding:1rem}
+nav a,footer a{color:#fff;text-decoration:none;margin-right:1rem}
+.container{width:90%;max-width:1200px;margin:auto;padding:2rem 0}
+.hero,.banner{padding:4rem 0;text-align:center}
+.btn{display:inline-block;padding:.8rem 1.2rem;border-radius:8px;background:var(--primary);color:#fff;text-decoration:none;margin:.3rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem}
+.card,.stat-card{background:#fff;padding:1rem;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,.08)}
+.placeholder{height:180px;background:#ddd;border-radius:8px;margin-bottom:1rem}
+.badge{padding:.3rem .6rem;border-radius:20px;background:var(--secondary)}
+table{width:100%;border-collapse:collapse;background:#fff}
+th,td{border:1px solid #ddd;padding:.7rem}
+form input,form select,form textarea{width:100%;padding:.8rem;margin:.4rem 0 1rem}
+.progress{height:18px;background:#ddd;border-radius:20px;overflow:hidden}
+.progress div{width:53%;height:100%;background:var(--accent)}
+@media(max-width:768px){nav{text-align:center}}
